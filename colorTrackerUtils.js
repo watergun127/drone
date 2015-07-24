@@ -72,7 +72,7 @@ var TrackerUtils = (function() {
 
         img.onload = function() {
             var canvas = $(element).get(0);
-            var context = canvas.getContext('2d');   
+            var context = canvas.getContext('2d');
             context.drawImage(this, 0, 0);
             URL.revokeObjectURL(url);
         }
